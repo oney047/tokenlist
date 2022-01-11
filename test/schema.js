@@ -24,11 +24,11 @@ const TokenInfoSchema = z.object({
   chainId: z.number(),
   address: ETHAddressSchema,
   name: z.string(),
-  descimals: z.number(),
+  decimals: z.number(),
   symbol: z.string(),
   logoURI: z.string().optional(),
   tags: z.array(z.string()).optional(),
-  extensions: z.record(z.string(), PrimitiveSchema),
+  extensions: z.record(z.string(), PrimitiveSchema).optional(),
 });
 
 const schema = z.object({
