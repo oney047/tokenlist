@@ -4,7 +4,7 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "tokens": [
     {
@@ -13,6 +13,34 @@
       "chainId": 9000,
       "decimals": 18,
       "address": "0xa47c8bf37f92abed4a126bda807a7b7498661acd"
+    },
+    {
+      "name": "MOCK USDC",
+      "symbol": "MUSDC",
+      "chainId": 9000,
+      "decimals": 18,
+      "address": "0x880E63017A2854ECE5B23A5B84fbEeC0858e6551"
+    },
+    {
+      "name": "MOCK Evmos",
+      "symbol": "MEVMOS",
+      "chainId": 9000,
+      "decimals": 18,
+      "address": "0xca20D595fEcB22f0D0E6ab4309324D2b7d300C63"
+    },
+    {
+      "name": "MOCK Atom",
+      "symbol": "MATOM",
+      "chainId": 9000,
+      "decimals": 18,
+      "address": "0x221ab5e5Ec2B748abc3d0e9D771D258493DD9165"
+    },
+    {
+      "name": "MOCK Osmosis",
+      "symbol": "MOSMOSIS",
+      "chainId": 9000,
+      "decimals": 18,
+      "address": "0x290A81340949c3C303313D54f4E99774e8bF85CD"
     }
   ]
 }
