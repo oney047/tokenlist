@@ -4,7 +4,7 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 3
+    "patch": 4
   },
   "tokens": [
     {
@@ -12,7 +12,7 @@
       "symbol": "MUSDC",
       "chainId": 9000,
       "decimals": 18,
-      "address": "0x6aBdDa34Fb225be4610a2d153845e09429523Cd2"
+      "address": "0xc48Efe267a31b5Af4cFDb50C8457914aadB0b875"
     },
     {
       "name": "MOCK USDC",
@@ -26,7 +26,7 @@
       "symbol": "MEVMOS",
       "chainId": 9000,
       "decimals": 18,
-      "address": "0xFCd2Ce20ef8ed3D43Ab4f8C2dA13bbF1C6d9512F"
+      "address": "0xf1361Dc7DFB724bd29FE7ade0CdF9785F2Bc20E6"
     },
     {
       "name": "MOCK Evmos",
@@ -40,7 +40,7 @@
       "symbol": "MATOM",
       "chainId": 9000,
       "decimals": 18,
-      "address": "0x2764b262E60D3Ac96999F7e73b0628B09CbB367E"
+      "address": "0x9832169B33DC5777D3d28572f35E0a537Ff7A04C"
     },
     {
       "name": "MOCK Atom",
@@ -61,14 +61,14 @@
       "symbol": "MOSMOSIS",
       "chainId": 4,
       "decimals": 18,
-      "address": "0x7F2D8c2bb0cD4368C9f44198e0Cd1486cD5Ae1aA"
+      "address": "0x1dccd8025688e39C72f2539C6f00d77bd6678425"
     },
     {
       "name": "Left Hand 2",
       "symbol": "LHS2",
       "chainId": 9000,
       "decimals": 18,
-      "address": "0xD6C474447cA995219B52E5c018665eCAfEB772e4"
+      "address": "0x7c21d6A51d6f591A95470f1F262C9c804c4CEAc3"
     },
     {
       "name": "Left Hand 2",
@@ -82,7 +82,7 @@
       "symbol": "RHS2",
       "chainId": 9000,
       "decimals": 18,
-      "address": "0x16bc4f17071A27Ebe6Af44e90bac6349057646a5"
+      "address": "0xD3607915d934576EcdC389E7DBc641097fd5A0dE"
     },
     {
       "name": "Right Hand 2",
