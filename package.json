@@ -5,9 +5,12 @@
   "author": "KeKs0r <marc.hoeffl@laserfocus.io>",
   "license": "MIT",
   "devDependencies": {
+    "@uniswap/token-lists": "^1.0.0-beta.28",
+    "uvu": "^0.5.3",
     "zod": "^3.11.6"
   },
   "scripts": {
-    "test": "node test/validate.js"
-  }
+    "test": "node tests/run-tests.js"
+  },
+  "dependencies": {}
 }
