@@ -22,6 +22,62 @@
       "decimals": 18,
       "address": "0x3f75ceabCDfed1aCa03257Dc6Bdc0408E2b4b026",
       "logoURI": "https://storage.googleapis.com/us-central1-dgc-berlin-0-470cbba9-bucket/tokenlist/DIFF.png"
+    },
+    {
+      "name": "MOCK USDC",
+      "symbol": "MUSDC",
+      "chainId": 9000,
+      "decimals": 18,
+      "address": "0xc48Efe267a31b5Af4cFDb50C8457914aadB0b875",
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389"
+    },
+    {
+      "name": "MOCK Evmos",
+      "symbol": "MEVMOS",
+      "chainId": 9000,
+      "decimals": 18,
+      "address": "0xf1361Dc7DFB724bd29FE7ade0CdF9785F2Bc20E6",
+      "logoURI": "https://storage.googleapis.com/us-central1-dgc-berlin-0-470cbba9-bucket/tokenlist/wevmos.png"
+    },
+    {
+      "name": "MOCK Atom",
+      "symbol": "MATOM",
+      "chainId": 9000,
+      "decimals": 18,
+      "address": "0x9832169B33DC5777D3d28572f35E0a537Ff7A04C",
+      "logoURI": "https://storage.googleapis.com/us-central1-dgc-berlin-0-470cbba9-bucket/tokenlist/atom%201.png"
+    },
+    {
+      "name": "MOCK Osmosis",
+      "symbol": "MOSMOSIS",
+      "chainId": 9000,
+      "decimals": 18,
+      "address": "0x1dccd8025688e39C72f2539C6f00d77bd6678425",
+      "logoURI": "https://storage.googleapis.com/us-central1-dgc-berlin-0-470cbba9-bucket/tokenlist/osmo%201.png"
+    },
+    {
+      "name": "Left Hand 2",
+      "symbol": "LHS2",
+      "chainId": 9000,
+      "decimals": 18,
+      "address": "0x7c21d6A51d6f591A95470f1F262C9c804c4CEAc3",
+      "logoURI": "https://storage.googleapis.com/us-central1-dgc-berlin-0-470cbba9-bucket/tokenlist/LHS.png"
+    },
+    {
+      "name": "Right Hand 2",
+      "symbol": "RHS2",
+      "chainId": 9000,
+      "decimals": 18,
+      "address": "0xD3607915d934576EcdC389E7DBc641097fd5A0dE",
+      "logoURI": "https://storage.googleapis.com/us-central1-dgc-berlin-0-470cbba9-bucket/tokenlist/RHS.png"
+    },
+    {
+      "name": "Diffusion",
+      "symbol": "DIFF",
+      "chainId": 9000,
+      "decimals": 18,
+      "address": "0x7e806d59528f6fa7cccadb4821dd42551113defc",
+      "logoURI": "https://storage.googleapis.com/us-central1-dgc-berlin-0-470cbba9-bucket/tokenlist/DIFF.png"
     }
   ]
 }
