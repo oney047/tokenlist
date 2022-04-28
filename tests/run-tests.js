@@ -1,7 +1,11 @@
 const { test } = require("uvu");
 const https = require("https");
 const assert = require("uvu/assert");
-const { getVersionUpgrade, minVersionBump } = require("@uniswap/token-lists");
+const {
+  getVersionUpgrade,
+  minVersionBump,
+  VersionUpgrade,
+} = require("@uniswap/token-lists");
 const schema = require("./schema");
 
 test("Validate Schema", () => {
@@ -16,7 +20,9 @@ test("Validate Correct Bump", async () => {
   const min = minVersionBump(masterList.tokens, current.tokens);
   assert.ok(
     bump >= min,
-    `Version bump needs to be bigger than min. Got: Bump=${bump}, min=${min}`
+    `Version bump needs to be bigger than min. Got: ${
+      VersionUpgrade[`${bump}`]
+    }, needs=${VersionUpgrade[`${min}`]}`
   );
 });
 
