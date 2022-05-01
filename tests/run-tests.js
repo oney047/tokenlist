@@ -49,7 +49,7 @@ function getCurrentMainList() {
   return data;
 }
 function getCurrentCommunityList() {
-  require("../src/community-list.json");
+  return require("../src/community-list.json");
 }
 
 async function getListFromMaster(name) {
