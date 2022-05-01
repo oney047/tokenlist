@@ -31,18 +31,18 @@ test("Community List - Validate Schema", () => {
   schema.parse(list);
 });
 
-// test("Community List - Validate Correct Bump", async () => {
-//   const masterList = await getListFromMaster("tokenlist.json");
-//   const current = getCurrentMainList();
-//   const bump = getVersionUpgrade(masterList.version, current.version);
-//   const min = minVersionBump(masterList.tokens, current.tokens);
-//   assert.ok(
-//     bump >= min,
-//     `Version bump needs to be bigger than min. Got: ${
-//       VersionUpgrade[`${bump}`]
-//     }, needs=${VersionUpgrade[`${min}`]}`
-//   );
-// });
+test("Community List - Validate Correct Bump", async () => {
+  const masterList = await getListFromMaster("community-list.json");
+  const current = getCurrentCommunityList();
+  const bump = getVersionUpgrade(masterList.version, current.version);
+  const min = minVersionBump(masterList.tokens, current.tokens);
+  assert.ok(
+    bump >= min,
+    `Version bump needs to be bigger than min. Got: ${
+      VersionUpgrade[`${bump}`]
+    }, needs=${VersionUpgrade[`${min}`]}`
+  );
+});
 
 function getCurrentMainList() {
   const data = require("../src/tokenlist.json");
