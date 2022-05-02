@@ -1,9 +1,10 @@
 {
   "name": "Diffusion List",
   "timestamp": "2022-05-01T00:00:00.000Z",
+  "logoURI": "https://app.diffusion.fi/favicon.png",
   "version": {
     "major": 9,
-    "minor": 1,
+    "minor": 2,
     "patch": 0
   },
   "tokens": [
