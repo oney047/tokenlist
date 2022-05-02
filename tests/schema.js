@@ -23,7 +23,7 @@ const TagSchema = z.object({
 const TokenInfoSchema = z.object({
   chainId: z.number(),
   address: ETHAddressSchema,
-  name: z.string().max(20),
+  name: z.string(),
   decimals: z.number(),
   symbol: z.string(),
   logoURI: z.string().optional(),
@@ -32,7 +32,7 @@ const TokenInfoSchema = z.object({
 });
 
 const schema = z.object({
-  name: z.string(),
+  name: z.string().max(20),
   timestamp: DateTimeStringSchema,
   version: VersionSchema,
   tokens: z.array(TokenInfoSchema),
