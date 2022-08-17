@@ -29,6 +29,14 @@
       "decimals": 9,
       "address": "0x9E7dDF92e7de1B44BAFEdcECCe42Bd5FA7732926",
       "logoURI": "https://raw.githubusercontent.com/burnevmos/burnevmos/main/burnevmoswhite.png"
-    }
+    },
+    {
+        "name": "RINGS TOKEN",
+        "symbol": "RINGS",
+        "chainId": 9000,
+        "decimals": 18,
+        "address": "0x9f35562fbEb1816C5cA0b2D386f9E15Ae741A5E8",
+        "logoURI": "https://ipfs.io/ipfs/QmZD4VYiQ6qm8VLf7tmxQowqMoyiG9y8y3P9DYqzstXfN8/RingsToken1.svg"
+      }
   ]
 }
